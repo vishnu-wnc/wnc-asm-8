@@ -1,0 +1,35 @@
+body{
+    background-color: #EDE7DC;
+}
+
+table{
+    margin: auto;
+    width: 60%;
+    font-size: large;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #DCD2CC;
+}
+
+tr:nth-child(even) {
+    background-color: #CCAFA5;
+}
+
+tr:hover {
+    background-color: #BDC3CB;
+}
+
+
+button{
+    border-radius: 50%;
+    height: 60px;
+    margin: 10px 10px 10px 10px;
+}
